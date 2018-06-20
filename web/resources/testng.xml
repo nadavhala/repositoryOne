@@ -1,0 +1,7 @@
+<suite name="nadavSuite">
+    <test name="nadavTest">
+        <classes>
+            <class name="tests.CheckTest" />
+        </classes>
+    </test>
+</suite>

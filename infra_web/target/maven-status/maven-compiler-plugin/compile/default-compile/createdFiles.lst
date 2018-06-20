@@ -1,0 +1,6 @@
+TestParamsThreadPool.class
+BaseSeleniumTest.class
+logger\ConsoleLogger.class
+propertiesreader\TestPropsReader.class
+BaseSelenium.class
+SeleniumDriver.class

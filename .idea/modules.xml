@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/infra_web/infra_web.iml" filepath="$PROJECT_DIR$/infra_web/infra_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/myAuto.iml" filepath="$PROJECT_DIR$/myAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>

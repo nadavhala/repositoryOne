@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myAuto" />
+        <module name="infra_web" />
+        <module name="web" />
+        <module name="web_infra" />
+        <module name="webinfra" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="infra_web" target="1.5" />
       <module name="myAuto" target="1.5" />
+      <module name="web" target="1.5" />
+      <module name="web_infra" target="1.5" />
+      <module name="webinfra" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

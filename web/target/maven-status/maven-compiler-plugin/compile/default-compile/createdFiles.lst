@@ -1,0 +1,6 @@
+TestDetails.class
+pom\CommonPOM.class
+pom\AbstractPOM.class
+utils\Email.class
+utils\FileUtils.class
+Waiter.class
