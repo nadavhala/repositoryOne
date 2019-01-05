@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import utils.Loggers;
 
 public class TestOne {
 
@@ -19,6 +20,7 @@ public class TestOne {
 
 	@Test
 	public void myTest(){
+		Loggers.Info("TesstOne starts");
 		driver.get("https://www.google.com");
 		try {
 			Thread.sleep(10000);
