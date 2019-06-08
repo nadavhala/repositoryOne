@@ -1,7 +1,37 @@
-<suite name="nadavSuite">
-    <test name="nadavTest">
+<suite name="nadavSuite" parallel="tests" thread-count="5">
+
+    <test name="EbayTests">
         <classes>
-            <class name="tests.CheckTest" />
+            <class name="tests.ebaytests.EbayTest" />
+            <class name="tests.ebaytests.EbayTest2" />
+            <class name="tests.ebaytests.EbayTest3" />
+            <class name="tests.ebaytests.EbayTest4" />
+            <class name="tests.ebaytests.EbayTest4" />
+            <class name="tests.ebaytests.EbayTest5" />
         </classes>
     </test>
+
+
+    <!-- expected -->
+    <test>
+        <classes>
+            <class name="tests.ebaytests.EbayTest"> </class>
+        </classes>
+    </test>
+    <test>
+        <classes>
+            <class name="tests.ebaytests.EbayTest2"> </class>
+        </classes>
+    </test>
+    <test>
+        <classes>
+            <class> </class>
+        </classes>
+    </test>
+    <test>
+        <classes>
+            <class> </class>
+        </classes>
+    </test>
+
 </suite>

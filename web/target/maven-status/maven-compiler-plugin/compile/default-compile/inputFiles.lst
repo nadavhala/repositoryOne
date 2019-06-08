@@ -1,6 +1,10 @@
-C:\Users\Nadav Halachmi\Automation\myAuto\web\src\main\java\utils\FileUtils.java
-C:\Users\Nadav Halachmi\Automation\myAuto\web\src\main\java\pom\CommonPOM.java
-C:\Users\Nadav Halachmi\Automation\myAuto\web\src\main\java\Waiter.java
-C:\Users\Nadav Halachmi\Automation\myAuto\web\src\main\java\utils\Email.java
-C:\Users\Nadav Halachmi\Automation\myAuto\web\src\main\java\TestDetails.java
-C:\Users\Nadav Halachmi\Automation\myAuto\web\src\main\java\pom\AbstractPOM.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\utils\AutomationProperties.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\pom\ebaypom\CommonPage.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\utils\driverManagers\DriverManagerFactory.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\utils\PropertyManager.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\pom\ebaypom\LandingPage.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\utils\driverManagers\DriverManager.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\pom\AbstractPOM.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\utils\products\EbayProduct.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\utils\driverManagers\ChromeDriverManager.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\web\src\main\java\pom\ebaypom\SearchResultsPage.java

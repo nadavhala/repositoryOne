@@ -13,9 +13,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="infra_web" target="1.5" />
+      <module name="infra_web" target="1.6" />
       <module name="myAuto" target="1.5" />
-      <module name="web" target="1.5" />
+      <module name="web" target="1.6" />
       <module name="web_infra" target="1.5" />
       <module name="webinfra" target="1.5" />
     </bytecodeTargetLevel>

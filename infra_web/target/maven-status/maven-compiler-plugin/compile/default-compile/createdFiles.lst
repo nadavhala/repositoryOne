@@ -1,6 +1,8 @@
-TestParamsThreadPool.class
-BaseSeleniumTest.class
-logger\ConsoleLogger.class
-propertiesreader\TestPropsReader.class
-BaseSelenium.class
-SeleniumDriver.class
+utils\SendEmail.class
+api\UserApi.class
+utils\SendEmail$1.class
+api\AccountApi.class
+utils\Waiters.class
+utils\Loggers.class
+api\CommonApi.class
+api\User.class

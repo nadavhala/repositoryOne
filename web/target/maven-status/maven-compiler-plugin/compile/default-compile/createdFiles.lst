@@ -1,6 +1,12 @@
-TestDetails.class
-pom\CommonPOM.class
+utils\driverManagers\DriverManagerFactory$DriverType.class
+utils\driverManagers\DriverManagerFactory.class
+utils\products\EbayProduct.class
+pom\ebaypom\LandingPage.class
+utils\PropertyManager.class
+utils\driverManagers\ChromeDriverManager.class
+utils\driverManagers\DriverManagerFactory$1.class
 pom\AbstractPOM.class
-utils\Email.class
-utils\FileUtils.class
-Waiter.class
+pom\ebaypom\SearchResultsPage.class
+pom\ebaypom\CommonPage.class
+utils\AutomationProperties.class
+utils\driverManagers\DriverManager.class
