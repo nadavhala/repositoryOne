@@ -9,21 +9,6 @@ public class SqlCommands {
 
     private final static String DB_URL = "jdbc:sqlite:C:/Users/daniel/.dbeaver4/.metadata/sample-database-sqlite-1/Chinook.db";
 
-    //static String rdbmsUrl;
-
-    /*public SqlCommands(){
-        rdbmsUrl = "jdbc:sqlite:C:/Users/daniel/.dbeaver4/.metadata/sample-database-sqlite-1/Chinook.db";
-    }
-
-    public SqlCommands(String rdbmsUrl){
-        this.rdbmsUrl=rdbmsUrl;
-    }*/
-
-
-   /*enum rdbmsType {
-        sqLight,
-        mySql
-    }*/
 
     public static Connection connect() {
 
@@ -75,6 +60,8 @@ public class SqlCommands {
         Statement stmt = conn.createStatement();
         ResultSet results = stmt.executeQuery(selectSqlQuery);
         return getAllDataFromResultSet(results, columns);
+
+
     }
 
     public static String buildSelectQuery(String table, String... columns){
@@ -86,8 +73,7 @@ public class SqlCommands {
                 tempSql.append(" "+columns[i]+",");
             }
         }
-        //tempSql.append(" "+column1+",");
-        //tempSql.append(column2+" ");
+
         tempSql.append("FROM "+table+";\n");
         return tempSql.toString();
     }
@@ -97,11 +83,26 @@ public class SqlCommands {
         while (results.next()){
             List<String> rowValues = new ArrayList<String>();
             for(String column: columns){
-                rowValues.add(results.getString(column));
+                rowValues.add(column+": "+results.getString(column));
             }
             rows.add(rowValues);
         }
         return rows;
+    }
+
+    public static void printResultSetData(List<List<String>> data){
+
+        StringBuilder toPrint = new StringBuilder();
+        for (List<String> list: data) {
+
+                toPrint.append(list.toString());
+                toPrint.append("\n");
+            }
+            System.out.print(toPrint);
+
+
+
+
     }
 }
 

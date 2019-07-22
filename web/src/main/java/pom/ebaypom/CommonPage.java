@@ -56,6 +56,11 @@ public class CommonPage {
     {
             Waiters.waitForElementVisibility(driver,webElement);
     }
+
+    protected void waitForElementToBeClickable (WebElement webElement)
+    {
+    Waiters.waitForElementToBeClickable(driver, webElement, 200);
+    }
 }
 
 

@@ -27,7 +27,7 @@ public class SuiteGenerator {
 
     //create the classes part
 
-       //List<Class> wantedTests = new ArrayList<Class>();
+       //List<Class> wantedTests = new LinkedList<Class>();
        File path = new File("C:/Users/daniel/Automation/RepositoryOne/repositoryOne/web/src/test/java/tests/ebaytests");
 
 
@@ -42,7 +42,7 @@ public class SuiteGenerator {
        nadavSuite.setThreadCount(5);
        for(Class singleClass: classes) {
            XmlTest test = new XmlTest();
-           List<XmlClass> classes1 = new ArrayList<XmlClass>();
+           List<XmlClass> classes1 = new LinkedList<XmlClass>();
            XmlClass xmlClass = new XmlClass(singleClass.getName());
            classes1.add(xmlClass);
            test.setXmlClasses(classes1);

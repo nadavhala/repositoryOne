@@ -15,6 +15,7 @@ public class ChromeDriverManager extends DriverManager
         System.setProperty("webdriver.chrome.driver",AutomationProperties.getProperty("chromeDriverPath"));
         System.out.println("Opening Chrome browser");
         driver = new ChromeDriver();
+        //driver = new RemoteWebDriver()
         driver.manage().window().maximize();
     }
 

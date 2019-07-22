@@ -28,8 +28,6 @@ public class LandingPage extends CommonPage{
     @FindBy(xpath = "//*[@class='gf-legal']")
     WebElement lastElementOnPage;
 
-    //@FindBy(xpath = "//span[contains(text(),'Group')]")
-    //WebElement groupElement;
 
     public LandingPage loadLandingPage()
     {
@@ -46,7 +44,6 @@ public class LandingPage extends CommonPage{
         Loggers.Info("Searching for product: " +product);
         writeText(searchBox, product);
         clickOnWebElement(searchButton);
-        //clickOnWebElement(groupElement);
     }
 
 

@@ -13,7 +13,7 @@ public class SQLiteTest {
 
       List<List<String>> rows = SqlCommands.select("Album", "AlbumId", "Title");
 
-      System.out.println("");
+      SqlCommands.printResultSetData(rows);
 
 
     }

@@ -13,12 +13,7 @@ public static void Info(String infoContext)
     logger.info(infoContext);
 }
 
-public static void Debug(String debugContext)
-{
-
-    logger.debug(debugContext);
-
-}
+public static void Debug(String debugContext) { logger.debug(debugContext); }
 
 
 }
