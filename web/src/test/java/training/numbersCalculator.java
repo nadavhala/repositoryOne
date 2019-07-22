@@ -1,4 +1,4 @@
-package tests;
+package training;
 
 
 public class numbersCalculator <E extends Number>

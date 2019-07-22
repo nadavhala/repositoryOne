@@ -1,4 +1,4 @@
-package tests;
+package training;
 
 import org.testng.annotations.Test;
 
@@ -14,7 +14,7 @@ public class student {
         Integer num4=5;
        // String number ="asda";
 
-        numbersCalculator <Integer> calc  = new numbersCalculator();
+        numbersCalculator<Integer> calc  = new numbersCalculator();
         calc.divide(num4, num2);
         List<String> list = new ArrayList<String>();
         list.add("jrl");
