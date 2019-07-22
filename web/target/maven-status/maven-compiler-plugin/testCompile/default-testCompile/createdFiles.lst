@@ -1,1 +1,15 @@
-tests\CheckTest.class
+tests\ebaytests\EbayTest5.class
+datastructuresexamples\StackExample.class
+tests\genericsCalculator.class
+tests\FindClasses.class
+tests\SuiteGenerator.class
+tests\ebaytests\EbayTest.class
+tests\ebaytests\EbayTest4.class
+runners\SuiteGenerator.class
+tests\MessageLoop.class
+tests\numbersCalculator.class
+tests\ebaytests\EbayTest3.class
+tests\ebaytests\EbayBaseTest.class
+tests\apitests\ApiTest.class
+tests\ebaytests\EbayTest2.class
+tests\SimpleThreads.class

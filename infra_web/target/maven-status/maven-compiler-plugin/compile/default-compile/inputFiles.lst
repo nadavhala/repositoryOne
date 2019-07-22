@@ -1,6 +1,7 @@
-C:\Users\Nadav Halachmi\Automation\myAuto\infra_web\src\main\java\logger\ConsoleLogger.java
-C:\Users\Nadav Halachmi\Automation\myAuto\infra_web\src\main\java\SeleniumDriver.java
-C:\Users\Nadav Halachmi\Automation\myAuto\infra_web\src\main\java\TestParamsThreadPool.java
-C:\Users\Nadav Halachmi\Automation\myAuto\infra_web\src\main\java\BaseSeleniumTest.java
-C:\Users\Nadav Halachmi\Automation\myAuto\infra_web\src\main\java\propertiesreader\TestPropsReader.java
-C:\Users\Nadav Halachmi\Automation\myAuto\infra_web\src\main\java\BaseSelenium.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\utils\SendEmail.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\api\User.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\api\AccountApi.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\utils\Waiters.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\api\CommonApi.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\utils\Loggers.java
+C:\Users\daniel\Automation\RepositoryOne\repositoryOne\infra_web\src\main\java\api\UserApi.java
